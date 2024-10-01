@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .policy-container {
+    background-color: white;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  /* Policy Sections */
+  .policy-section {
+    margin-bottom: 15px;
+  }
+  
+  .policy-btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .policy-btn:hover {
+    background-color: #357ABD;
+  }
+  
+  .policy-content {
+    display: none;
+    padding: 10px 20px;
+    border-left: 4px solid #4a90e2;
+    margin-top: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .policy-content p {
+    margin: 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .policy-container {
+      width: 90%;
+    }
+  }
+  

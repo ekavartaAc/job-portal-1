@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Tab</title>
+    <link rel="stylesheet" href="/all.css.file/employers.css">
+</head>
+<body>
+
+    <div class="employee-container">
+        <h1>Employee Management</h1>
+
+        <!-- Employee Form -->
+        <div class="employee-form">
+            <h2>Add New Employee</h2>
+            <input type="text" id="employeeName" placeholder="Employee Name" required>
+            <input type="text" id="employeePosition" placeholder="Position" required>
+            <input type="number" id="employeeAge" placeholder="Age" required>
+            <input type="text" id="employeeDepartment" placeholder="Department" required>
+            <button onclick="addEmployee()">Add Employee</button>
+        </div>
+
+        <!-- Employee List -->
+        <div class="employee-list">
+            <h2>Employee List</h2>
+            <table id="employeeTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Age</th>
+                        <th>Department</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Employee rows will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/all.js.file/employes.js"></script>
+</body>
+</html>

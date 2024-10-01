@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search Tab</title>
+    <link rel="stylesheet" href="/all.css.file/searchjob.css">
+</head>
+<body>
+    <div class="job-search-container">
+        <h1>Search for Jobs</h1>
+        <div class="search-bar">
+            <input type="text" id="jobInput" placeholder="Search jobs by title, location, or company">
+            <button onclick="searchJobs()">Search</button>
+        </div>
+
+        <div class="job-listings">
+            <div class="job" data-title="Software Engineer" data-location="San Francisco" data-company="Tech Corp">
+                <h2>Software Engineer</h2>
+                <p>Location: San Francisco</p>
+                <p>Company: Tech Corp</p>
+                <button>Apply Now</button>
+            </div>
+
+            <div class="job" data-title="Marketing Specialist" data-location="New York" data-company="Marketing Pros">
+                <h2>Marketing Specialist</h2>
+                <p>Location: New York</p>
+                <p>Company: Marketing Pros</p>
+                <button>Apply Now</button>
+            </div>
+
+            <div class="job" data-title="Data Analyst" data-location="Chicago" data-company="Data Inc">
+                <h2>Data Analyst</h2>
+                <p>Location: Chicago</p>
+                <p>Company: Data Inc</p>
+                <button>Apply Now</button>
+            </div>
+
+            <div class="job" data-title="Web Developer" data-location="Remote" data-company="Creative Studios">
+                <h2>Web Developer</h2>
+                <p>Location: Remote</p>
+                <p>Company: Creative Studios</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/all.js.file/searchjob.js"></script>
+</body>
+</html>
